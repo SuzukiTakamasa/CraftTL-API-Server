@@ -27,4 +27,4 @@ production:
   <<: *default
   database: crafttl_prod
   username: crafttl
-  password] <%= ENV['DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
